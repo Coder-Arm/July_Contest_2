@@ -86,3 +86,21 @@ button {
   font-size: 2em;
   font-weight: 700;
 }
+@media screen and (max-width: 1125px) {
+  .set-time-box {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 785px) {
+  .set-time-box {
+    width: 75%;
+  }
+  .inputs input {
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 650px) {
+  .inputs input {
+    font-size: 90%;
+  }
+}
